@@ -1,0 +1,16 @@
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\bin\Debug\TestRBACControl.exe
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\bin\Debug\TestRBACControl.pdb
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\bin\Debug\nKnight.dll
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\bin\Debug\nKnightControls.dll
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\bin\Debug\nKnightD.dll
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\bin\Debug\nKnightControls.pdb
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\bin\Debug\nKnightD.pdb
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\bin\Debug\nKnight.pdb
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\obj\x86\Debug\TestRBACControl.csprojResolveAssemblyReference.cache
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\obj\x86\Debug\TestRBACControl.Form1.resources
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\obj\x86\Debug\TestRBACControl.Form2.resources
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\obj\x86\Debug\TestRBACControl.Properties.Resources.resources
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\obj\x86\Debug\TestRBACControl.csproj.GenerateResource.Cache
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\obj\x86\Debug\TestRBACControl.exe
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\obj\x86\Debug\TestRBACControl.pdb
+C:\gitHub\RBAC_nknight\nknight-read-only\TestRBACControl\obj\x86\Debug\TestRBACControl.userManagement.resources

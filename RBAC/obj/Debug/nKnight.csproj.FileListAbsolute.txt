@@ -1,0 +1,14 @@
+C:\gitHub\RBAC_nknight\nknight-read-only\RBAC\bin\Debug\nKnight.dll
+C:\gitHub\RBAC_nknight\nknight-read-only\RBAC\bin\Debug\nKnight.pdb
+C:\gitHub\RBAC_nknight\nknight-read-only\RBAC\bin\Debug\nKnightD.dll
+C:\gitHub\RBAC_nknight\nknight-read-only\RBAC\bin\Debug\nKnightD.pdb
+C:\gitHub\RBAC_nknight\nknight-read-only\RBAC\obj\Debug\nKnight.csprojResolveAssemblyReference.cache
+C:\gitHub\RBAC_nknight\nknight-read-only\RBAC\obj\Debug\nKnight.RBAC.frmAssignsSecurityGroup.resources
+C:\gitHub\RBAC_nknight\nknight-read-only\RBAC\obj\Debug\nKnight.RBAC.frmCreateSecurityGroups.resources
+C:\gitHub\RBAC_nknight\nknight-read-only\RBAC\obj\Debug\nKnight.RBAC.frmCreateUser.resources
+C:\gitHub\RBAC_nknight\nknight-read-only\RBAC\obj\Debug\nKnight.RBAC.frmResourceRoleMapping.resources
+C:\gitHub\RBAC_nknight\nknight-read-only\RBAC\obj\Debug\nKnight.RBAC.frmResources.resources
+C:\gitHub\RBAC_nknight\nknight-read-only\RBAC\obj\Debug\RBAC.Resources.resources
+C:\gitHub\RBAC_nknight\nknight-read-only\RBAC\obj\Debug\nKnight.csproj.GenerateResource.Cache
+C:\gitHub\RBAC_nknight\nknight-read-only\RBAC\obj\Debug\nKnight.dll
+C:\gitHub\RBAC_nknight\nknight-read-only\RBAC\obj\Debug\nKnight.pdb

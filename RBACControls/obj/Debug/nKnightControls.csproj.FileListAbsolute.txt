@@ -1,0 +1,9 @@
+C:\gitHub\RBAC_nknight\nknight-read-only\RBACControls\bin\Debug\nKnightControls.dll
+C:\gitHub\RBAC_nknight\nknight-read-only\RBACControls\bin\Debug\nKnightControls.pdb
+C:\gitHub\RBAC_nknight\nknight-read-only\RBACControls\bin\Debug\nKnight.dll
+C:\gitHub\RBAC_nknight\nknight-read-only\RBACControls\bin\Debug\nKnightD.dll
+C:\gitHub\RBAC_nknight\nknight-read-only\RBACControls\bin\Debug\nKnight.pdb
+C:\gitHub\RBAC_nknight\nknight-read-only\RBACControls\bin\Debug\nKnightD.pdb
+C:\gitHub\RBAC_nknight\nknight-read-only\RBACControls\obj\Debug\nKnightControls.csprojResolveAssemblyReference.cache
+C:\gitHub\RBAC_nknight\nknight-read-only\RBACControls\obj\Debug\nKnightControls.dll
+C:\gitHub\RBAC_nknight\nknight-read-only\RBACControls\obj\Debug\nKnightControls.pdb
