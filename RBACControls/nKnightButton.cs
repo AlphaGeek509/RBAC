@@ -94,9 +94,11 @@ namespace nKnight.RBACControl
         {
             //MessageBox.Show(GroupUniqueID);
             string message = CheckSecurityPermission(GroupUniqueID);
+            //MessageBox.Show(message);
             if ( message== string.Empty) { base.OnClick(e); }
             else
             {
+                //MessageBox.Show("inside"+message);
                 ButtonControlEventArgs cnt = new ButtonControlEventArgs();
                 cnt.ErrorMessage = message;
                 if (oError != null) { this.oError(cnt); }

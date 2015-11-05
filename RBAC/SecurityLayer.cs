@@ -174,7 +174,7 @@ namespace nKnight
                 {
                     foreach (User u in puInfo)
                     {
-                        if ((u.UserName == UserName) && (u.Password == pPassword))
+                        if ((u.UserName.ToUpper() == UserName.ToUpper()) && (u.Password == pPassword))
                         {
                             uId = u.UserId;
                             break;

@@ -6,3 +6,10 @@ C:\gitHub\RBAC_nknight\nknight-read-only\RBACD\RBACD\obj\Debug\RBACD.Resources.r
 C:\gitHub\RBAC_nknight\nknight-read-only\RBACD\RBACD\obj\Debug\nKnightD.csproj.GenerateResource.Cache
 C:\gitHub\RBAC_nknight\nknight-read-only\RBACD\RBACD\obj\Debug\nKnightD.dll
 C:\gitHub\RBAC_nknight\nknight-read-only\RBACD\RBACD\obj\Debug\nKnightD.pdb
+C:\gitHub\RBAC\RBACD\RBACD\bin\Debug\nKnightD.dll.config
+C:\gitHub\RBAC\RBACD\RBACD\bin\Debug\nKnightD.dll
+C:\gitHub\RBAC\RBACD\RBACD\bin\Debug\nKnightD.pdb
+C:\gitHub\RBAC\RBACD\RBACD\obj\Debug\RBACD.Resources.resources
+C:\gitHub\RBAC\RBACD\RBACD\obj\Debug\nKnightD.csproj.GenerateResource.Cache
+C:\gitHub\RBAC\RBACD\RBACD\obj\Debug\nKnightD.dll
+C:\gitHub\RBAC\RBACD\RBACD\obj\Debug\nKnightD.pdb
