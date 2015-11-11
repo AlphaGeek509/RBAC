@@ -83,18 +83,32 @@ namespace nKnight
                         lvwResources.Items.Clear();
                         foreach (Control c in f.Controls) //Loop through all the controls
                         {
-                            Type t = c.GetType();
-                            PropertyInfo[] properties = t.GetProperties(); //Get all the properties associated with the RBAC controls
-                            foreach (PropertyInfo property in properties)
+                            if (c.HasChildren == true)
                             {
-                                if (property.Name == "GroupUniqueID")
-                                {
-                                    ListViewItem lvwItem = lvwResources.Items.Add(c.Name);
-                                    lvwItem.SubItems.Add(t.Name);
-                                    lvwItem.SubItems.Add(property.GetValue(c, null).ToString());
+                                foreach (Control gc in c.Controls){
+                                    LoadControlResource(gc);
                                 }
                             }
+                            else
+                            {
+                                LoadControlResource(c);
+                            }
+                            
                         }
+                    }
+                }
+            }
+            private void LoadControlResource(Control c)
+            {
+                Type t = c.GetType();
+                PropertyInfo[] properties = t.GetProperties(); //Get all the properties associated with the RBAC controls
+                foreach (PropertyInfo property in properties)
+                {
+                    if (property.Name == "GroupUniqueID")
+                    {
+                        ListViewItem lvwItem = lvwResources.Items.Add(c.Name);
+                        lvwItem.SubItems.Add(t.Name);
+                        lvwItem.SubItems.Add(property.GetValue(c, null).ToString());
                     }
                 }
             }

@@ -290,6 +290,11 @@ namespace nKnight
                     lvwRoles.Columns[2].Width = 0;
                 }
             }
+
+            private void grpResources_Enter(object sender, EventArgs e)
+            {
+
+            }
         }
     }
 }
