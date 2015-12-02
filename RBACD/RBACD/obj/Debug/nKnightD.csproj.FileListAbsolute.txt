@@ -13,3 +13,4 @@ C:\gitHub\RBAC\RBACD\RBACD\obj\Debug\RBACD.Resources.resources
 C:\gitHub\RBAC\RBACD\RBACD\obj\Debug\nKnightD.csproj.GenerateResource.Cache
 C:\gitHub\RBAC\RBACD\RBACD\obj\Debug\nKnightD.dll
 C:\gitHub\RBAC\RBACD\RBACD\obj\Debug\nKnightD.pdb
+C:\gitHub\RBAC\RBACD\RBACD\obj\Debug\nKnightD.csprojResolveAssemblyReference.cache

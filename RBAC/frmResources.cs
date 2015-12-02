@@ -83,18 +83,33 @@ namespace nKnight
                         lvwResources.Items.Clear();
                         foreach (Control c in f.Controls) //Loop through all the controls
                         {
-                            Type t = c.GetType();
-                            PropertyInfo[] properties = t.GetProperties(); //Get all the properties associated with the RBAC controls
-                            foreach (PropertyInfo property in properties)
+                            if (c.HasChildren == true)
                             {
-                                if (property.Name == "GroupUniqueID")
+                                foreach (Control gc in c.Controls)
                                 {
-                                    ListViewItem lvwItem = lvwResources.Items.Add(c.Name);
-                                    lvwItem.SubItems.Add(t.Name);
-                                    lvwItem.SubItems.Add(property.GetValue(c, null).ToString());
+                                    LoadControlResource(gc);
                                 }
                             }
+                            else
+                            {
+                                LoadControlResource(c);
+                            }
+                            
                         }
+                    }
+                }
+            }
+            private void LoadControlResource(Control c)
+            {
+                Type t = c.GetType();
+                PropertyInfo[] properties = t.GetProperties(); //Get all the properties associated with the RBAC controls
+                foreach (PropertyInfo property in properties)
+                {
+                    if (property.Name == "GroupUniqueID")
+                    {
+                        ListViewItem lvwItem = lvwResources.Items.Add(c.Name);
+                        lvwItem.SubItems.Add(t.Name);
+                        lvwItem.SubItems.Add(property.GetValue(c, null).ToString());
                     }
                 }
             }
@@ -109,24 +124,38 @@ namespace nKnight
                 {
                     foreach (Control c in f.Controls) //Loop through all the controls
                     {
-                        Type t = c.GetType();
-                        PropertyInfo[] properties = t.GetProperties(); //Get all the properties associated with the RBAC controls
-                        foreach (PropertyInfo property in properties)
+                        if (c.HasChildren == true)
                         {
-                            if (property.Name == "GroupUniqueID")
+                            foreach (Control gc in c.Controls)
                             {
-                                RBACD.DatalayerDef.sResource rcs = new RBACD.DatalayerDef.sResource();
-                                rcs.ResourceId = property.GetValue(c, null).ToString();
-                                rcs.ResourceName = c.Name;
-                                rcs.ResourceDescrition = t.Name;
-                                rcs.ResourceParentName = f.Name;
-                                rcsList.Add(rcs); //Load all resources into a list for database saving
+                                LoadControlResourceIntoDataLayer(gc, f);
                             }
+                        }
+                        else
+                        {
+                            LoadControlResourceIntoDataLayer(c, f);
                         }
                     }
                 }
             }
 
+            private void LoadControlResourceIntoDataLayer(Control c, Form f)
+            {
+                Type t = c.GetType();
+                PropertyInfo[] properties = t.GetProperties(); //Get all the properties associated with the RBAC controls
+                foreach (PropertyInfo property in properties)
+                {
+                    if (property.Name == "GroupUniqueID")
+                    {
+                        RBACD.DatalayerDef.sResource rcs = new RBACD.DatalayerDef.sResource();
+                        rcs.ResourceId = property.GetValue(c, null).ToString();
+                        rcs.ResourceName = c.Name;
+                        rcs.ResourceDescrition = t.Name;
+                        rcs.ResourceParentName = f.Name;
+                        rcsList.Add(rcs); //Load all resources into a list for database saving
+                    }
+                }
+            }
             private void cmdSave_Click(object sender, EventArgs e)
             {
                 if (Rbacd.SaveResources(rcsList)) { this.Close(); frmResourceRoleMapping frmMap = new frmResourceRoleMapping(Rbacd, assemblyPath); frmMap.Show(); }
