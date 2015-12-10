@@ -154,7 +154,7 @@ namespace nKnight.RBACD.DataLayer
                 sqlStr = "CREATE TABLE if not exists securityrightassign (" +
                         " SecurityGroupID varchar(50) default NULL," +
                         " SecurityRightID varchar(50) default NULL," +
-                        " PRIMARY KEY  (SecurityGroupID,SecurityRightID)" +
+                        " UNIQUE KEY  (SecurityGroupID,SecurityRightID)" +
                         " ) ENGINE=InnoDB DEFAULT CHARSET=latin1;";
                 sqlCmd.CommandText = sqlStr;
                 sqlCmd.ExecuteNonQuery();

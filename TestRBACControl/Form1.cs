@@ -21,7 +21,7 @@ namespace TestRBACControl
         {
             InitializeComponent();
             rbacCombo1.SelectedIndex = 2;
-            string conStr = "DRIVER={MySQL ODBC 5.1 Driver};SERVER=127.0.0.1;PORT=3306;DATABASE=RBAC;USER=root;PASSWORD=jandk4014;OPTION=3";
+            string conStr = "DRIVER={MySQL ODBC 5.1 Driver};SERVER=192.168.10.3;PORT=3306;DATABASE=RBAC;USER=LT_DB;PASSWORD=She!byGT;OPTION=3";
             IDbConnection con = (IDbConnection)new OdbcConnection(conStr);
             con.Open();
 
